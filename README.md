@@ -4,7 +4,7 @@ Source:
 
 <p style="text-align: justify">
 <i>
-Fluent Python by Luciano Ramalho (O’Reil‐ ly). Copyright 2015 Luciano Ramalho, 978-1-491-94600-8."
+Fluent Python by Luciano Ramalho (O’Reil‐ ly). Copyright 2015 Luciano Ramalho, 978-1-491-94600-8.
 </i>
 </p>
 
