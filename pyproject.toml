@@ -6,6 +6,8 @@ authors = ["Matheus Raposo <matheus_raposo@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+numpy = "^1.22.2"
+pandas = "^1.4.1"
 
 [tool.poetry.dev-dependencies]
 
