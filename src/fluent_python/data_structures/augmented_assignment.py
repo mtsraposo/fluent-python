@@ -14,17 +14,17 @@ print(id(t))  # 4694154240
 t *= 2
 print(id(t))  # 4696957280
 
-# Bottomline === Repeated concatenation of immutable sequences is inefficient.
+# Bottom line === Repeated concatenation of immutable sequences is inefficient.
 
 
 # <<< Tuple Riddle >>>
 import dis
 
 t = (1, 2, [30, 40])
-t[2] += [50, 60] # Throws TypeError: 'tuple' object does not support item assignment
+t[2] += [50, 60]  # Throws TypeError: 'tuple' object does not support item assignment
 # Get bytecode for expression
 dis.dis('s[a] += b')
-# Bottomline === Putting mutable items in tuples is not a good idea.
+# Bottom line === Putting mutable items in tuples is not a good idea.
 
 
 
