@@ -31,7 +31,7 @@ if __name__ == '__main__':
     floats_list = [random() for i in range(10 ** 7)]
     fp = open('floats.bin', 'w')
 
-    ROW_FORMAT = '%s\n'
+    ROW_FORMAT = '{:.4f}\n'
     list_to_file = "[fp.write(ROW_FORMAT.format(floats_list[i])) for i in range(10 ** 7)]"
     print_run_time(list_to_file)  # 1.4601781368255615
 
