@@ -15,6 +15,7 @@ def print_run_time(command):
 
 if __name__ == '__main__':
     # <<< ARRAYS >>>
+    # Create array of double-precision floats (typecode 'd')
     floats_array = array('d', (random() for i in range(10 ** 7)))
     fp = open('floats.bin', 'wb')
 
